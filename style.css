@@ -12,6 +12,19 @@ body {
     width: 100%;
 }
 
+.tech {
+    color: #FFFFFF;
+}
+
+.gradient_text {
+   
+    background: linear-gradient(45deg, #F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+    color: transparent; 
+}
+
 .navbar{
     background-color:rgba(26, 11, 46, 1);
     color:white;
@@ -36,11 +49,17 @@ body {
     cursor: pointer;
     
 }
+.banner{
+     max-width: 100%;
+        height: 850px;
+    
+}
 .banner-bg-image{
     background-image: url(./assets/hero-bg.png);
     width:100%;
-    height:760px;
-    /* border:2px solid green; */
+    height:880px;
+    border:2px solid green;
+    
 }
 /* .banner{
     background-image: url(./assets/hero-circle.png);
@@ -55,7 +74,7 @@ body {
     text-align: center;
     display: flex;
     gap:40px;
-    /* border:2px solid red; */
+    border:2px solid red;
     /* width:500px;
     height: 500px; */
     align-items: center;  
@@ -64,7 +83,7 @@ body {
     color: white;
     position:absolute;  
     top:25%;
-    left:42%;
+    left:38%;
     
 }   
 
@@ -72,7 +91,7 @@ body {
     position:absolute;  
 
     top:38%;
-    left:50%;
+    left:46%;
     margin-bottom: 50px;
 }
 .banner-button{
@@ -107,7 +126,8 @@ body {
 
 }
 .section-2{
-    /* border:2px solid gold; */
+    border:2px solid gold;
+    
     align-items: center;
     text-align: center;
     color:white;
@@ -257,7 +277,7 @@ hr{
 .footer{
     background-image: url(./assets/footer-bg.png);
     width:100%;
-    height: 350px;
+    
     /* margin-bottom:70px; */
 
 }
@@ -265,7 +285,9 @@ hr{
     
     color:white;
     
-    padding: 100px  ;
+    padding: 170px  ;
+    flex-direction: column;
+    gap: 20px;
 
     /* border:3px solid orange; */
     
@@ -406,7 +428,9 @@ hr{
         gap:10px;
         flex-wrap: wrap;
     }     */
-
+    .banner{
+     max-width: 100%;
+    }
     .banner-bg-image{
         width: 100%;
         height: 800px;
@@ -493,12 +517,15 @@ hr{
     .navbar{
         padding: 1rem;
     }
-
+     .banner{
+        max-width: 100%;
+        height: 850px;
+     }
     .banner-bg-image{
         
        
         max-width: 100%;
-        height: 650px;
+        height: 850px;
        
     }
 
