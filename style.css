@@ -34,7 +34,7 @@ body {
     cursor: pointer;
     
 }
-.banner{
+.banner-bg-image{
     background-image: url(./assets/hero-bg.png);
     width:100%;
     height:760px;
@@ -194,17 +194,18 @@ hr{
     background-color:  rgba(26, 11, 46, 1);
 }
 .card-section{
-    /* border:2px solid orchid; */
+    /* border:2px solid rgb(225, 19, 5); */
     color :white;
     background-color:  rgba(26, 11, 46, 1);
-    padding: 20px 50px 10px 100px;
+    padding: 20px 15px 10px 10px;
     width: 100%;
     
    
 }
 .three-cards{
+    /* border: 2px solid #e5ff00; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 0px;
     gap:20px;
     
@@ -222,7 +223,7 @@ hr{
     text-align: left;
     align-items: center;
     margin-left: 10px;
-    margin-right: 80px;
+    margin-right: 10px;
 }
 
 .card-text h4{
@@ -292,7 +293,7 @@ hr{
         flex-direction: column;
         gap: 10px;
         display:none;
-        width: 440px;
+        width:100%;
     }   
     /* .section-2{
         padding: 30px 30px;
@@ -302,10 +303,11 @@ hr{
         flex-wrap: wrap;
     }     */
 
-    .banner{
-       
+    .banner-bg-image{
+        width: 100%;
         height: 566px;
-        
+        object-fit: cover;
+        object-position: center;
     }
     .banner-circle-image{
         top:30%;
@@ -399,10 +401,11 @@ hr{
         flex-wrap: wrap;
     }     */
 
-    .banner{
-       
+    .banner-bg-image{
+        width: 100%;
         height: 600px;
-        
+        object-fit: cover;
+        object-position: center;
     }
     .banner-circle-image{
         top:30%;
