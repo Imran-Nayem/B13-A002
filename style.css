@@ -318,6 +318,7 @@ hr{
         width: 200px;
     }
     .ratings{
+        width: 576px;
          flex-direction: column; 
         gap: 15px;
         margin-top: 30px;
@@ -328,6 +329,7 @@ hr{
         font-weight: bolder;
     }
     .grid-container{
+        width: 576px;
         padding:0px 20px;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(5, 1fr);
@@ -336,6 +338,7 @@ hr{
         margin:auto;
     }
     .card-with-iframe{
+        width: 576px;
         height: 1750px;
         margin:auto;
         display: flex;
@@ -351,6 +354,7 @@ hr{
         
     }
     .challenging-content{
+        
         flex-direction: column;
         padding: 20px 30px;
         display:flex;
