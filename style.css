@@ -8,6 +8,8 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .navbar{
@@ -114,9 +116,9 @@ body {
 
 }
 hr{
-    width: 1200px;
+    width: 95%;
     border: 1px solid rgba(196, 192, 192, 0.233);
-    margin: 20px auto;
+    margin: 20px 20px;
 }
 .ratings{
     display: flex;
@@ -413,9 +415,9 @@ hr{
     }
     .banner-circle-image{
         top:20%;
-        left:20%;
+        left:8%;
         gap:20px;
-        height:1200px;
+        height:600px;
     }
     .banner-image{
         top:29%;
